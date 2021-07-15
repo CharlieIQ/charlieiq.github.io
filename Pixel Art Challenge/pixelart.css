@@ -1,0 +1,41 @@
+table {
+    border-collapse:collapse ;
+}
+
+th {
+    border-spacing: 0px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: 1px outset none;
+    border-width: 12px;
+    outline: none;
+    position: unset;
+    vertical-align: top;
+    
+}
+
+th.white{
+    background-color: white;
+}
+th.red {
+    background-color: red;
+}
+th.orange {
+    background-color: orange;
+}
+th.blue{
+    background-color: blue;
+}
+th.yellow {
+    background-color: yellow;
+}
+th.purple {
+    background-color: purple;
+}
+th.green {
+    background-color: green;
+}
+th.black {
+    background-color: black;
+}
