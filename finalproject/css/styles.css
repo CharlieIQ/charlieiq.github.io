@@ -1,0 +1,144 @@
+
+article aside{
+    margin-left: 350px;
+    margin-top: 150px;
+    background-color: rgba(56, 105, 211, 0.803);   
+    max-width: 400px; 
+    font-size: 24px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(131, 130, 130, 0.288);
+}
+article aside h1 {
+    vertical-align: top;
+    max-width: 400px; 
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(131, 130, 130, 0.288);
+}
+.me {
+    position: absolute;
+    left: 850px;
+    top: 245px;
+    border-radius: 10px;
+    border-width: 4px;
+    border: solid;
+    border-color: rgba(131, 130, 130, 0.288);
+}
+.news {
+    text-align: center;
+    background-color: rgba(56, 105, 211, 0.803);
+    border-width: 4px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 10px;
+    left: 600px;
+    width: 450px;
+
+}
+.eastlink {
+position: relative;
+left: 892px;
+    width: 250px;
+    vertical-align: top;
+    border: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(131, 130, 130, 0.288);
+    background-color: rgba(56, 105, 211, 0.803); 
+}
+.eastlinkdesc {
+    position: relative;
+    left: 892px;
+    width: 250px;
+    font-size: 25px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(131, 130, 130, 0.288);
+    background-color: rgba(56, 105, 211, 0.803); 
+}
+.eastlinkimg {
+    position: relative;
+    bottom: 600px;
+    left: 450px;
+    border-radius: 10px;
+    border-color: rgba(131, 130, 130, 0.288);
+    border: solid;
+    border-width: 2px;
+}
+.cjlsheader {
+    position: absolute;
+    top: 1430px;
+    left: 892px;
+    width: 250px;
+    vertical-align: top;
+    border-width: 4px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(131, 130, 130, 0.288);
+    background-color: rgba(56, 105, 211, 0.803); 
+}
+.cjlsarticle {
+    position: absolute;
+    left: 892px;
+    width: 250px;
+    top: 1500px;
+    border-width: 4px;
+    font-size: 25px;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgba(131, 130, 130, 0.288);
+    background-color: rgba(56, 105, 211, 0.803); 
+}
+.cjlsimg {
+    position: relative;
+    bottom: 600px;
+    left: 450px;
+    border-radius: 10px;
+    border-color: rgba(131, 130, 130, 0.288);
+    border: solid;
+    border-width: 2px;
+}
+.about {
+    position: absolute;
+    top: 250px;
+    max-width: 200px;
+    left: 490px;
+
+}
+.abouthead {
+    text-align: center;
+    background-color: rgba(56, 105, 211, 0.803);
+    border-radius: 10px;    
+    border: solid rgba(131, 130, 130, 0.288) 1px;
+    border-radius: 10px;
+
+}
+.aboutme {
+    position: relative;
+    float:left;
+    border: solid rgba(131, 130, 130, 0.288) 1px;
+    border-radius: 10px;
+    background-color: rgba(63, 166, 192, 0.8);
+    font-size: 22px;
+}
+.me2 {
+    position: absolute;
+    left: 750px;
+    top: 270px;
+}
+.donatehead {
+    position: absolute;
+    top: 250px;
+    left: 430px;
+    border: solid rgba(131, 130, 130, 0.288) 1px;
+    border-radius: 10px;
+    min-width: 700px;
+    text-align: center;
+    background-color: rgba(87, 197, 224, 0.747);
+    
+}

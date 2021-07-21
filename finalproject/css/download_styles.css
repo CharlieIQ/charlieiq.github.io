@@ -1,0 +1,70 @@
+body article {
+    position: absolute;
+    top: 300px;
+    left: 580px;
+    width: 400px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgba(131, 130, 130, 0.288);
+    background-color: rgba(56, 105, 211, 0.803); 
+}
+.download1{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: rgba(14, 207, 233, 0.803);
+    font-size: 32px;
+}
+    
+.download2{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: rgba(14, 207, 233, 0.803);
+    font-size: 32px;
+
+}
+
+.download3{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: rgba(14, 207, 233, 0.803);
+    font-size: 32px;
+
+}
+
+.download4{
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color: rgba(14, 207, 233, 0.803);
+    font-size: 32px;
+}
+.downloadlinkhead {
+    position: absolute;
+
+    top: 220px;
+    left: 630px;
+    width: 300px;
+    border: solid rgba(122, 127, 128, 0.507) 4px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(56, 105, 211, 0.803);  
+}
+
+body article a:hover{
+    background-color: black;
+    color: white;
+}
+.downloadP {
+    position: relative;
+    top: 420px;
+    width: 900px;
+    margin-left: 330px;
+    border: solid rgba(122, 127, 128, 0.507) 1px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:rgba(56, 105, 211, 0.803);  
+}

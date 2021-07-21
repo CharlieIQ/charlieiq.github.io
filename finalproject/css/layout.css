@@ -1,0 +1,75 @@
+@font-face { 
+    font-family: "customfont"; src: url('https://fonts.googleapis.com/css2?family=Tourney:wght@700;800&display=swap'); 
+} 
+
+body {
+    width: 1500px;
+    font-family: arial, Helvetica, verdana;
+    background-color: rgba(132, 236, 250, 0.61);
+    
+}
+.mainlogo{
+    margin-left: 480px;
+    text-align: center;
+    font-size: 80px;
+    background-color:rgba(56, 105, 211, 0.803);
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(131, 130, 130, 0.288);
+    margin-top: 0px;
+    width: 600px;
+    box-shadow: 0px, 0px, 15px, 30px slategrey;
+    font-family: "customfont";
+}
+header nav {
+    
+    display: table-row;
+    align-content: center;
+    background-color: rgba(56, 105, 211, 0.803);    
+    position: absolute;
+    left: 490px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgba(131, 130, 130, 0.288);
+}
+header nav ul {
+    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+header nav ul li{
+    display: table-cell;
+    list-style: none;
+    background-color: rgba(19, 178, 218, 0.658);
+    max-width: 250px;
+    margin: 10px;
+    border: solid rgba(122, 127, 128, 0.507) 1px;
+    border-collapse: collapse;
+
+    font-size: larger;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 00);
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: powderblue;
+    background-color: steelblue;
+    text-decoration: none;
+
+    border-color: steelblue;
+}
+div#myCarousel {
+    position: absolute;
+    top: 750px;
+    left: 750px;
+}
