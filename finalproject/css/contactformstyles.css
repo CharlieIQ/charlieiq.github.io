@@ -1,0 +1,17 @@
+.contactForm {
+    border:rgb(11, 153, 158) solid ;
+    border-radius: 13px;
+    position: fixed;
+    width: 230px;
+    top: 200px;
+    left: 25px;
+    background-color: rgba(145, 235, 238, 0.911);
+    margin-bottom: 50px;
+}
+
+textarea {
+    padding: 5px;
+}
+fieldset#emailme {
+    padding: 10px;
+}

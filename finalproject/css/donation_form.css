@@ -1,0 +1,63 @@
+fieldset#namenstuff {
+    float: left ;
+    width: 400px;
+    
+}
+form#basicinfo input, form#basicinfo label {
+    padding: 2px;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+form{
+    border:rgb(11, 153, 158) solid ;
+    border-radius: 13px;
+    position: absolute;
+    top: 320px;
+    left: 455px;
+    background-color: rgba(145, 235, 238, 0.911);
+    margin-bottom: 50px;
+}
+form#basicinfo legend {
+    font-size: 26px;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: solid rgb(11, 153, 158) 2px;
+    text-align: center;
+}
+.thanks4coin {
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid rgb(11, 153, 158) 1px;
+    background-color: rgb(95, 202, 140);
+    width: 200px;
+    font-size: 26px;
+    padding: 2px;
+}
+form button {
+    margin-top: 10px;
+    border: solid rgb(11, 153, 158) 1px;
+    background-color: rgb(95, 202, 143);
+    border-radius: 10px;
+    font-family: fantasy;
+    margin-left: 45px;
+    font-size: 30px;
+}
+    
+form button:hover {
+    color: white;
+    background-color: black;
+}
+footer{
+    position: relative;
+    top: 870px;
+    left: 300px;
+    width: 1000px;
+    font-size: 30px;
+    margin-top: 10px;
+    border: solid rgb(103, 119, 119) 1px;
+    background-color: rgb(12, 214, 214);
+    border-radius: 15px;
+    padding: 5px;
+  
+}
