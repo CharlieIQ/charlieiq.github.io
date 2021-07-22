@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--Thanks Kaleb for helping with the table!-->
+
+<head>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/calendar_styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Calendar</title>
+    <link rel="shortcut icon" href="Images/favicon-32x32.png" type="image/png">   
+     <meta charset="utf-8">
+</head>
+<body>
+    <h1 class="mainlogo">Rate My Drive</h1>
+    <header>
+    <nav class = "menu">
+        <ul>
+            <li>
+                <a href="ratemydrivehome.html">Home</a>
+            </li>
+            <li>
+                <a href="ratemyabout.html">About me</a>                
+            </li>
+            <li>
+                <a href="ratemydownload.html">Downloads</a>
+            </li>
+            <li>
+                <a href="Donate.html">Donate</a>
+            </li>
+            <li>
+                <a href="ratemycalendar.html">Calendar/events</a>
+            </li>
+        </ul>
+    </nav>        
+    <h1 id="headercalendar">Upcoming events (Not to be taken seriously)</h1>
+   
+    <table class="calendar">
+
+        <thead>
+            <tr>
+                <th>July</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Week 1</th>
+                <td colspan = "5">Conference</td>
+                <td colspan="2">Interview with Jimmy Fallon</td>
+            </tr>
+            <tr>
+                <th>Week 2</th>
+                <td colspan="3">Visit Grandma</td>
+                <td>Learn to fly a plane</td>
+                <td colspan="3">Volunteer work</td>
+            </tr>
+            <tr>
+                <th>Week 3</th>
+                <td colspan="3">3 day marathon</td>
+                <td colspan="4">Trip to Mexico</td>
+            </tr>
+            <tr>
+                <th>Week 4</th>
+                <td>Visit Ryan</td>
+                <td colspan = "2">Visit Xander</td>
+                <td colspan = "2">Leave Xander</td>
+                <td colspan="2">Pain</td>
+            </tr>
+        </tbody>
+    </table>
+</header>
+<footer class="toastBox">
+<div class="container">
+    <h3>Rate my Drive Fact!</h3>
+    <p>I came up with the idea while trying to fall asleep,</p>
+    <p>Because my dog kicked me awake.</p>
+   
+    <button type="button" class="btn btn-primary" id="toastButton">What the dog did</button>
+  
+    <div class="toast">
+      <div class="toast-header">
+        Thanks Finn
+      </div>
+      <div class="toast-body">
+        You started this.
+      </div>
+    </div>
+  </div>
+ </footer> 
+  <script>
+  $(document).ready(function(){
+    $("#toastButton").click(function(){
+      $('.toast').toast('show');
+    });
+  });
+  </script>
+
+</body>
+</html>
