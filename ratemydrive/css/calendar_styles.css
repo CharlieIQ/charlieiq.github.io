@@ -1,0 +1,47 @@
+h1#headercalendar{
+    position: relative;
+    top: 100px;
+    margin-left: 340px;
+    margin-right: 340px;
+    display: block;
+    background-color: rgba(71, 185, 238, 0.692);
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.calendar {
+    position: relative;
+    top: 100px;
+    margin-left: 340px;
+    margin-right: 340px;
+}
+tr, th, td {
+    border: solid rgba(60, 64, 68, 0.863) 4px;
+    background-color: rgba(138, 218, 255, 0.562);
+    text-align: center;
+    font-size: 22px;
+
+}
+th{
+    background-color: rgb(0, 174, 255);
+    width: 150px;
+    height: 70px;
+}
+.toastBox {
+    background-color:rgba(56, 105, 211, 0.803);
+    position: absolute;
+    top: 750px;
+    left: 590px;
+    height: 110px;
+    border: solid rgba(60, 64, 68, 0.863) 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+button#toastButton {
+    margin-left: 0px;
+    background-color: rgba(56, 105, 211, 0.803);
+    border: solid rgba(60, 64, 68, 0.863) 4px;
+}
+button#toastButton:hover {
+    background-color: black;
+    color: white;
+}
